@@ -145,7 +145,7 @@ if __name__ == "__main__":
 
     # Benzerlik skorlarını çubukların ucuna yazma
     for i, similarity in enumerate(top_100_similarities_values):
-        plt.text(similarity + 0.01, i, round(similarity, 2), ha='left', va='center', fontsize=8)
+        plt.text(similarity + 0.001, i, round(similarity, 2), ha='left', va='center', fontsize=8)
 
     # Tweetlerde en çok tekrar eden kelimelerin grafiği
     top_words, top_counts = zip(*top_words)
