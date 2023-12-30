@@ -154,7 +154,7 @@ if __name__ == "__main__":
     plt.xlabel('Kelimeler')
     plt.ylabel('Tekrar Sayısı')
     plt.title('Tweetlerde En Çok Tekrar Eden Kelimeler')
-    plt.xticks(rotation=45)
+    plt.xticks(rotation=90)
     
     # Her çubuğun üstüne tekrar sayısını yazma
 for i, count in enumerate(top_counts):
